@@ -6,4 +6,37 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - Proyect_Reporte_2023</name>
   <url>http://maven.apache.org</url>
+
+  <!-- Lombok -->
+<dependencies>
+  <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.28</version>
+    <scope>provided</scope>
+  </dependency>
+  <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.28</version>
+    <scope>compile</scope>
+  </dependency>
+
+  <!-- JPA Persistence Dependencies -->
+  <dependency>
+    <groupId>io.github.flbulgarelli</groupId>
+    <artifactId>jpa-extras</artifactId>
+    <version>1.0.0-rc1</version>
+  </dependency>
+    <!-- Controlador de base de datos (por ejemplo, MySQL) -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.17</version> <!-- Ajusta la versión según tus necesidades -->
+    </dependency>
+
+    <!-- Otras dependencias que puedas necesitar -->
+
+  </dependencies>
+
 </project>
